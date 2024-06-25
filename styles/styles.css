@@ -4,7 +4,7 @@ body {
 }
 
 .grid-container {
-    height: 95vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 20fr;
@@ -28,6 +28,7 @@ body {
     justify-content: end;
     align-items: center;
     min-width: 1200px; 
+    grid-area: 2/1/2/2;
 }
 
 .grid-body > h1 {
@@ -43,3 +44,17 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
+
+.img-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    grid-area: 2/1/2/2;
+}
+.hero-image {
+    width: 1200px;
+    height: 857px;
+}
+
+
